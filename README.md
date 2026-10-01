@@ -29,7 +29,7 @@ All-in-One Windows System Utility for performance, security, cleanup, repair and
 Get the latest build from **[Releases](https://github.com/MeetWithRakib/RKB-System-Suite/releases)**.
 
 - Current release: **[v1.0](https://github.com/MeetWithRakib/RKB-System-Suite/releases/tag/v1.0)**
-- File: `RKB.System.Suite.exe`
+- File: **[RKB.System.Suite.exe](https://github.com/MeetWithRakib/RKB-System-Suite/releases/download/v1.0/RKB.System.Suite.exe)**
 
 After the first install, the app can check for updates from **Settings → Check for Updates**.
 
