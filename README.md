@@ -76,14 +76,6 @@ After the first install, the app can check for updates from **Settings → Check
 
 ## Auto-update
 
-Publish a new EXE on **Releases** and keep `version.json` on **main** in sync:
-
-```json
-{
-  "version": "1.0",
-  "url": "https://github.com/MeetWithRakib/RKB-System-Suite/releases/download/v1.0/RKB.System.Suite.exe",
-  "notes": "First release — RKB System Suite 1.0"
-}
 ```
 
 Users are prompted when a newer version is available. The app downloads the update, replaces itself, and restarts.
