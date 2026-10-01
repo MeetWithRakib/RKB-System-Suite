@@ -76,11 +76,9 @@ After the first install, the app can check for updates from **Settings → Check
 
 ## Auto-update
 
-```
 
 Users are prompted when a newer version is available. The app downloads the update, replaces itself, and restarts.
 
----
 
 ## Data folder
 
