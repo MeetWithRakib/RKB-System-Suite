@@ -31,7 +31,7 @@ Get the latest build from **[Releases](https://github.com/MeetWithRakib/RKB-Syst
 - Current release: **[v1.0](https://github.com/MeetWithRakib/RKB-System-Suite/releases/tag/v1.0)**
 - File: `RKB.System.Suite.exe`
 
-After the first install, the app can check for updates automatically.
+After the first install, the app can check for updates from **Settings → Check for Updates**.
 
 ---
 
@@ -70,18 +70,13 @@ After the first install, the app can check for updates automatically.
 - Pin / Unpin any sub-tool (Favorites)  
 - Live tool search  
 - Short explanation before a tool runs (optional “never show again”)  
-- Auto-update via `version.json` and GitHub Releases  
+- Auto-update when a new release is published  
 
 ---
 
 ## Auto-update
 
-| Location | Content |
-|----------|---------|
-| **main branch** | `version.json` only (and this README) |
-| **Releases** | `RKB.System.Suite.exe` for each version |
-
-Example `version.json`:
+Publish a new EXE on **Releases** and keep `version.json` on **main** in sync:
 
 ```json
 {
@@ -91,15 +86,7 @@ Example `version.json`:
 }
 ```
 
-When a newer version is published, users can update from **Settings → Check for Updates**. The app downloads the new EXE, replaces the old one, and restarts.
-
----
-
-## Build from source
-
-1. Use Windows with .NET Framework 4.x (`csc.exe`)  
-2. Run `Build_RKB.bat` as Administrator  
-3. Output: `RKB System Suite.exe`  
+Users are prompted when a newer version is available. The app downloads the update, replaces itself, and restarts.
 
 ---
 
@@ -123,7 +110,7 @@ When a newer version is published, users can update from **Settings → Check fo
 - Telegram: [t.me/MeetWithRakib](https://t.me/MeetWithRakib)  
 - Repository: [MeetWithRakib/RKB-System-Suite](https://github.com/MeetWithRakib/RKB-System-Suite)
 
-RKB System Suite is built to stay practical: clear tools, protected handling of critical system processes and services, and updates without forcing users to hunt for a new download every time.
+RKB System Suite is built to stay practical: clear tools, careful handling of critical system processes and services, and updates without forcing users to hunt for a new download every time.
 
 ---
 
